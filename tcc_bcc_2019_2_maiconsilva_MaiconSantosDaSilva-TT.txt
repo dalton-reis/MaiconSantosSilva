@@ -1,0 +1,7 @@
+Existem 3 projetos dentro do arquivo zipada.
+
+UnityLayer é o projeto de Unity. Basta abrir o projeto com a versão do Unity 2018.3.11 e importar a biblioteca do ARCore (arquivo "arcore-unity-sdk-1.12.0.unitypackage"), caso não compile por falta de dependência. O projeto por si só não é para ser executado pois ele depende da camada do android.
+
+AndroidLayer é a versão do projeto do UnityLayer exportado pra Android Studio. Abrir com o Android Studio 3.5.2 e compilar, esse projeto gerará um arquivo .arr (biblioteca Android).
+
+ARLTestApp é a aplicação de teste. Esse projeto pode ser executado e depurado utilizando o Android Studio 3.5.2. Basta abrir o projeto, sincronizar as dependencias (File > Sync Project with Grandle Files) e executar.
